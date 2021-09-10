@@ -1,0 +1,27 @@
+<TextBlock x:Name="_fooditemno" Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Left" VerticalAlignment="Center" Text="Food Item No." FontSize="16" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="_fooditemname" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Food Item Name" FontSize="16" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="_availability" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Availablity" FontSize="16" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="_halfprice" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Half Price" FontSize="16" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="_fullprice" Grid.Row="9" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Full Price" FontSize="16" TextWrapping="Wrap"/>
+                    <TextBox x:Name="fooditemno" Grid.Column="1" Grid.Row="1" Horizonta
+
+<Grid Grid.Row="2">
+                <Grid Margin="12,0,12,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="2*"/>

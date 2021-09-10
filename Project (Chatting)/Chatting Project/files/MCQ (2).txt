@@ -1,0 +1,135 @@
+MCQ
+1. Which of the following does a tables colulmn represents?
+	An attribute of an entity
+2. Which of the following defiges a primary key ?
+	one or more coloumns that uniquely identity each row
+	in a table
+3. Which of the following defiges an index ?
+	it provides an efficient way of accesing rows in an table based an one or more columns.
+4. How can you define what type of data a column can store?
+	By setting its data type
+5. Which of the following data type allows only 1 or 0 to represents a true of false value?
+	Bit
+6. Which of the following is not a DDL statement?
+	Delete statement
+7. Which of the following statement do you use to delete a database object?
+	Droop statement.
+8. Which of the following statement do you use tp modify data in a table?
+	Insert
+9. Which of the following returns rows from both tables only if their related columns mathch?
+	An inner join
+10. Which of the following retrns rows from one table in the join even if the other table doesn't contain a matching row?
+	An outer join
+11. which of the following clause of a select statement is used to filter rows?
+	where
+12. to execute two or more SQL statement within a WHILE loop, cnclose them within ____ keywords.
+	Begin --- End
+13. It is possible to return data by using _____ in case of stored procesure.
+	Output parameters
+14. Which keyword is used to return to the beginning of a while loop?
+	Continue
+15. Which of the followings defins a composite key?
+	More than ase column that uniqely identifies each row of a table
+16. Which of the followings is used to separate batches?
+	go
+17. X > ALL(1,2)
+	X>2
+18. (12.4999,-1)
+	10.000
+19. Which of the following determines the type of information that can be stored in a column of a table?
+	data type
+20. You can define up to ___ clustered index for each table?
+	one
+21. A ___ combines the result set of two or more select statements into one result set?
+	Union
+22. Which of the following excludes all records thats don't have a calue in coth table?
+	Inner
+23. Which of the following option is used to retrieve rows that match a string pattern called mask?
+	like
+24. Which of the following symbols can match any single caharacter?
+	(_) underscore
+25. To test null value we can use ____.
+	Is Null
+26. If a clumn alias include space or special character you can enclose it in ____.
+	double(" "), sqaure brackets
+27. A function consists of a function name, followed by ____ that contains any parameters, requred by it.
+	()
+28. Fully - qualified object name is made up of  ____ parts.
+	4(Server, database, chema, object)
+29. The result set of cross join is known as ____.
+	cartesian product
+30. Union combines table rows from ____.
+	Result table
+31. SQL Server lets us View up to ____ tables.
+	256
+32. ____ is used as shorthand to indicate that all of the columns should be retrieved.
+	*
+33. Which SQL keywoeds is used to sort the result set?
+	Order by
+34. Which of the followings in not database object?
+	Script
+35. Which data type rturn boolean is SQL?
+	bit
+36. When the first time SQL Server loads afer installation how many sestem databases ate there?
+	Four
+37. Which is the definition of VIEW?
+38. Which is the definition of user-define function?
+39. Which is the definition of trigger?
+40. The name of parameter must begin with ____.
+	@
+41. You can define up to ____ non clustered.
+	249
+42. Which of thr followings is concatanetion operator?
+	+
+43. Which of the following reprsents a real world entity?
+	table
+44. The references cluse for a column indicates that the column contains a ____.
+	Foreign key
+45. How many normal forms?
+	7
+46. Sql server nestet up to ___ levels deep.
+	32
+47. View can contain ____ table.
+	256
+48. If you need to exedute two or more SQL statement withing an ___ clause.
+	IF----ELSE
+49. A store procedure can declare up to _____ parameter.
+	2100
+50. Function can be defined with from zero to ___ input parameter.
+	1024
+51. To hide the code use
+	Encryption
+52. Database name is limited ____ character.
+	123
+53. Char and varchar
+	8000
+54. A table can contain between ___ column.
+	1024
+55. The which signal is use the end of the batch?
+	GO
+56. Which operator use the sub-query must return a siglan columns of values?
+	IN
+57. Which function on a series of values and return a signal value?
+	Aggregate fucntion
+58. Top clause use ___
+	To limit the number of rows in the result set.
+59. An error code____
+	Try...... catch
+60. Limits the values that can be stored in the columns of table
+	Check constraints
+61. Allow duplicate value in Union
+	All keyword in the union
+62. In SQL server, a schema is a ____
+	container that holds objects
+63. Scalar function
+	on a single value and rerurn a single value 
+64. 2nf
+	Every non-key must depend on the primary key
+65.
+	schema.dbo
+66. 
+	Inteesect
+67.
+	Sperse
+68. 
+	Merge

@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sign up</title>
+     <link rel="shortcut icon" href="images/Graphicloads-100-Flat-2-Chat-2.ico">   <!--this is static link for image -->
+    <script src="js/jquery-3.4.1.min.js"></script>  <!-- call jquery library -->
+   
+    <!-- embeded style starts -->
+   <style>
+
+      body{
+        background-color: silver;
+      }
+      #main{
+        background: rgba(218, 212, 212, 0.973);
+        width: 530px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 150px;
+        box-shadow: 0 0 30px rgb(41, 33, 33);
+        border-radius: 10px;
+        padding:15px;
+      }
+    #txtUser{
+  
+    width: 40%;
+    height: 15px;
+    border: 2px solid rgb(243, 194, 194);
+    border-radius: 3px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(7, 7, 7);
+    }
+
+    #txtUser:focus{
+    background: rgb(255, 255, 255);
+}
+
+#btnSignUp{
+    background: #ace4e6;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 0 #0eb2c1;
+    cursor:pointer;
+    margin-left: 80px;
+    
+}
+
+#btnSignUp:hover{
+    background: #13c8d9;
+   }
+    </style>
+  <!-- embeded style ends -->
+  </head>
+
+  
+  <body>
+    <!-- Signup page Design starts -->
+    <div id="main">
+      <div>
+        <h1 style="text-align: center;font-size: 37px;">Login</h1>
+      </div>
+      <div id="divSignUp">
+        <label style="font-size: 25px; margin-left: 80px;padding-right: 7px;">username:</label><input type="text" id="txtUser" /><br><br>
+        <label style="font-size: 25px;margin-left: 80px;padding-right: 7px;">password:</label><input type="text" id="txtUser" /><br><br>
+        <input type="button" id="btnSignUp" value="Sign Up">
+      </div>
+    </div>
+   <!-- Signup page Design ends -->
+
+    </body>
+
+    <!-- Signup page functional code (use jquery) starts -->
+    <script>
+      var oPosition = null;
+      $(function () {
+           //getLocation();
+           $('#btnSignUp').click(function(){   //when user first 'sign in' he/she catch userInfo & userId and get this
+               var oUserInfo = {
+                   "userId": $('#txtUser').val()
+               };
+             sessionStorage.setItem('userInfo', JSON.stringify(oUserInfo));   // store (userInfo & userId) in sessionStorage ,,, then next to call
+             window.location.replace("http://localhost:8000/chat");   //this line means, repleace in the location
+           });
+       });
+   </script>
+   <!-- Signup page functional code (use jquery) ends -->
+</html>
